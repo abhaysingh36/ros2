@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict()}
+[0.000510] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.099968] (-) TimerEvent: {}
+[0.200216] (-) TimerEvent: {}
+[0.300455] (-) TimerEvent: {}
+[0.400700] (-) TimerEvent: {}
+[0.501024] (-) TimerEvent: {}
+[0.601376] (-) TimerEvent: {}
+[0.624737] (first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_package', 'build', '--build-base', '/home/asdf/ros/build/first_package/build', 'install', '--record', '/home/asdf/ros/build/first_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/asdf/ros/src/first_package', 'env': {'ATUIN_SESSION': '0196f62677db7653973b7f9da8e93935', 'USER': 'asdf', 'XDG_SESSION_TYPE': 'wayland', 'FZF_DEFAULT_OPTS': '--layout=reverse --info=inline', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/asdf', 'TERMINFO': '/usr/lib/kitty/terminfo', 'OLDPWD': '/home/asdf/ros/src', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'KITTY_PID': '10698', 'MANAGERPID': '2318', 'SYSTEMD_EXEC_PID': '2767', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-JaiBb37g57,guid=ff0718fb5d6a6afed3778cdf682ea62d', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10698', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/asdf/ros/install:/home/asdf/ros/src/install', 'ATUIN_PREEXEC_BACKEND': '1:bash-preexec', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'asdf', 'JOURNAL_STREAM': '9:18246', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': 'default;default', 'ATUIN_HISTORY_ID': '0196f642a6857623bbbfcc5ad10c9d48', 'KITTY_PUBLIC_KEY': '1:?%4<g(QZuk@sriv0xRFxKfvAtJ@?Dsx#FRuZd!d`', 'USERNAME': 'asdf', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'HISTCONTROL': 'ignoredups', 'PATH': '/home/asdf/scripts:/home/asdf/.local/bin:/home/asdf/bin:/home/asdf/scripts:/home/asdf/.local/bin:/home/asdf/bin:/home/asdf/scripts:/home/asdf/.local/bin:/home/asdf/bin:/opt/ros/jazzy/bin:/home/asdf/scripts:/home/asdf/.local/bin:/home/asdf/bin:/home/asdf/.cargo/bin:/home/asdf/.atuin/bin:/home/asdf/scripts:/home/asdf/.local/bin:/home/asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/var/lib/snapd/snap/bin:/var/lib/snapd/snap/bin:/var/lib/snapd/snap/bin:/var/lib/snapd/snap/bin:/var/lib/snapd/snap/bin', 'SESSION_MANAGER': 'local/asdf-HP-Laptop-14s-dy2xxx:@/tmp/.ICE-unix/2568,unix/asdf-HP-Laptop-14s-dy2xxx:/tmp/.ICE-unix/2568', '_ZO_ECHO': '1', 'INVOCATION_ID': '5fb1b713bd194e63bcfffae00eb02807', 'XDG_MENU_PREFIX': 'gnome-', '_ZO_DATA_DIR': '/home/asdf/zoxide', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5YWL62', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/asdf/ros/install/my_topic_package:/opt/ros/jazzy:/home/asdf/ros/src/install/my_topic_package', 'DBUS_SESSION_BUS_PID': '13095', 'SHELL': '/usr/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'DBUS_SESSION_BUS_WINDOWID': '20971521', 'KITTY_WINDOW_ID': '1', 'CHEAT_DIR': '/home/my_cheat_sheets', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asdf/ros/build/first_package', 'FZF_DEFAULT_COMMAND': 'ls -1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asdf/ros/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asdf/ros/install/first_package/lib/python3.12/site-packages:/home/asdf/ros/install/my_topic_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/asdf/ros/src/install/my_topic_package/lib/python3.12/site-packages', 'FZF_DEFAULT_OPTS_FILE': '/home/asdf/.fzf-defaults', 'TZ': 'Asia/Kolkata', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GTK_THEME': 'Adwaita:dark', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.701481] (-) TimerEvent: {}
+[0.801780] (-) TimerEvent: {}
+[0.817369] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.817598] (first_package) StdoutLine: {'line': b'creating ../../build/first_package/first_package.egg-info\n'}
+[0.831730] (first_package) StdoutLine: {'line': b'writing ../../build/first_package/first_package.egg-info/PKG-INFO\n'}
+[0.831885] (first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt\n'}
+[0.831968] (first_package) StdoutLine: {'line': b'writing requirements to ../../build/first_package/first_package.egg-info/requires.txt\n'}
+[0.832062] (first_package) StdoutLine: {'line': b'writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt\n'}
+[0.832118] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[0.860474] (first_package) StdoutLine: {'line': b"reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[0.860848] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[0.860974] (first_package) StdoutLine: {'line': b'running build\n'}
+[0.861070] (first_package) StdoutLine: {'line': b'running build_py\n'}
+[0.861137] (first_package) StdoutLine: {'line': b'creating /home/asdf/ros/build/first_package/build\n'}
+[0.861210] (first_package) StdoutLine: {'line': b'creating /home/asdf/ros/build/first_package/build/lib\n'}
+[0.861286] (first_package) StdoutLine: {'line': b'creating /home/asdf/ros/build/first_package/build/lib/first_package\n'}
+[0.861343] (first_package) StdoutLine: {'line': b'copying first_package/__init__.py -> /home/asdf/ros/build/first_package/build/lib/first_package\n'}
+[0.861416] (first_package) StdoutLine: {'line': b'running install\n'}
+[0.866206] (first_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.881343] (first_package) StdoutLine: {'line': b'creating /home/asdf/ros/install/first_package/lib/python3.12/site-packages/first_package\n'}
+[0.881533] (first_package) StdoutLine: {'line': b'copying /home/asdf/ros/build/first_package/build/lib/first_package/__init__.py -> /home/asdf/ros/install/first_package/lib/python3.12/site-packages/first_package\n'}
+[0.881809] (first_package) StdoutLine: {'line': b'byte-compiling /home/asdf/ros/install/first_package/lib/python3.12/site-packages/first_package/__init__.py to __init__.cpython-312.pyc\n'}
+[0.881973] (first_package) StdoutLine: {'line': b'running install_data\n'}
+[0.882076] (first_package) StdoutLine: {'line': b'creating /home/asdf/ros/install/first_package/share/ament_index\n'}
+[0.882183] (first_package) StdoutLine: {'line': b'creating /home/asdf/ros/install/first_package/share/ament_index/resource_index\n'}
+[0.882297] (first_package) StdoutLine: {'line': b'creating /home/asdf/ros/install/first_package/share/ament_index/resource_index/packages\n'}
+[0.882370] (first_package) StdoutLine: {'line': b'copying resource/first_package -> /home/asdf/ros/install/first_package/share/ament_index/resource_index/packages\n'}
+[0.882430] (first_package) StdoutLine: {'line': b'copying package.xml -> /home/asdf/ros/install/first_package/share/first_package\n'}
+[0.882488] (first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.898273] (first_package) StdoutLine: {'line': b'Copying ../../build/first_package/first_package.egg-info to /home/asdf/ros/install/first_package/lib/python3.12/site-packages/first_package-0.0.0-py3.12.egg-info\n'}
+[0.898685] (first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.901863] (-) TimerEvent: {}
+[0.993077] (first_package) StdoutLine: {'line': b"writing list of installed files to '/home/asdf/ros/build/first_package/install.log'\n"}
+[1.002110] (-) TimerEvent: {}
+[1.019931] (first_package) CommandEnded: {'returncode': 0}
+[1.025879] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[1.026340] (-) EventReactorShutdown: {}

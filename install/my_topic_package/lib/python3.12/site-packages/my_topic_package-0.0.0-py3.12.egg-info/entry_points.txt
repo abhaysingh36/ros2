@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = my_topic_package.pub:main
+subscriber = my_topic_package.sub:main

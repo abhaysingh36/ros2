@@ -16,6 +16,14 @@ after the setup of the ros2 jazzy
                 2.colcon build
 ![test image](images/1.png)
 
+## packages in ros2 
+
+                                you can list them by 
+                                ```ro2 pkg list```
+![pkg list](images/ros_pkg_list.png)
+
+
+
 
                 
                 
